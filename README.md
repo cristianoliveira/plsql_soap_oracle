@@ -1,8 +1,7 @@
 SOAP Webservices with PL/SQL Oracle
 =============
 
-Here are some objects types for Oracle Database to help manipulate SOAP XML.
-We need to create two news types objXML and objSOAP.
+Here are objects types for Oracle Database to help access and manipulate SOAP XML.
 
 Using
 =====

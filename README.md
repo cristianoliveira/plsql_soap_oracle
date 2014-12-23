@@ -7,17 +7,20 @@ We need to create two news types objXML and objSOAP.
 Using
 =====
 
-Execute objXML.typ after objSOAP.typ to create the types and use objSOAP to access the WebService.
+Execute objXML.typ after objSOAP.typ to create the types. This scripts create the objSOAP wich that you will be able to access any SOAP WebService.
 
-´´
+Â´Â´
 
 	SOAP := NEW ObjSoap('Test Product', 'TestProduct', 'SOAPENV');
 
 	SOAP.invoke(v_url, v_service, xml_send);
 
-´´
+Â´Â´
 
 For more details see "example.sql" file.
 
+Autor
+===
+Cristian Oliveira
 
 

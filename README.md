@@ -8,18 +8,12 @@ Using
 
 Execute objXML.typ after objSOAP.typ to create the types. This scripts create the objSOAP wich that you will be able to access any SOAP WebService.
 
-´´
-
-	SOAP := NEW ObjSoap('Test Product', 'TestProduct', 'SOAPENV');
-
-	SOAP.invoke(v_url, v_service, xml_send);
-
-´´
+        SOAP := NEW ObjSoap('Test Product', 'TestProduct', 'SOAPENV');
+        SOAP.invoke(v_url, v_service, xml_send);
+        myMessage := SOAP.getNodeValue('TestProduct/Message').getStringVal();
 
 For more details see "example.sql" file.
 
 Autor
 ===
-Cristian Oliveira
-
-
+Cristian Oliveira - [www.cristianoliveira.com.br](http://www.cristianoliveira.com.br)
